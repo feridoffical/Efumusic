@@ -47,7 +47,7 @@ class Translation(object):
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")
+        InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")          
         ],[
         InlineKeyboardButton('🇦🇿 Əmrlər', callback_data='help'),
         ],[
