@@ -10,6 +10,6 @@ class Config:
    OWNER_NAME = os.environ.get("OWNER_NAME", "@Feridoffical") 
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "EfuMusicPlaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1002098118049"))
-   ALIVE_NAME = os.environ.get("ALIVE_NAME", "Ferid")
+   ALIVE_NAME = os.environ.get("ALIVE_NAME", "@Feridoffical")
    ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/c34c2d05ce742278154cf.jpg") 
    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/c34c2d05ce742278154cf.jpg")    
