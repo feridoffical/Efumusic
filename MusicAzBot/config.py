@@ -11,5 +11,5 @@ class Config:
    PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "EfuMusicPlaylist")
    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1002098118049"))
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "Ferid")
-   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/f6c186e3c581a223856c4.mp4") 
-   START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/dc9794139c12507f5eb1c.jpg")    
+   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/c34c2d05ce742278154cf.jpg") 
+   START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/c34c2d05ce742278154cf.jpg")    
