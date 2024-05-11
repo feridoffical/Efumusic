@@ -4,7 +4,7 @@ import os
 class Config:
 
    API_ID = int(os.getenv("API_ID", "21880980"))
-   API_HASH = os.getenv("API_HASH", "17793cd64a21c800fdba74b7962b659e")
+   API_HASH = os.getenv("API_HASH", "17793cd64a21c800fdba74b7962b695e")
    BOT_TOKEN = os.getenv("BOT_TOKEN", "7190413281:AAGjRpoPVqo40z4B_9Qpo-DmsasBMLJYZt0")
    BOT_USERNAME = os.environ.get("BOT_USERNAME", "EfuMusic")
    OWNER_NAME = os.environ.get("OWNER_NAME", "Feridoffical") 
